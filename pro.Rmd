@@ -1,0 +1,12 @@
+---
+title: "PRO"
+output: html_document
+---
+
+
+
+```{r, fig.width=10, fig.height=8, eval=TRUE, echo=FALSE}
+library(RBMRB)
+plt<-chemical_shift_hist('PRO')
+plt
+```

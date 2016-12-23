@@ -1,0 +1,129 @@
+name: "Statistics"
+navbar:
+  title: "About"
+  href: index.html
+  left:
+    - text: "Amino Acids Histogram"
+      menu:
+        - text: "ALA"
+          href: ala.html
+        - text: "ARG"
+          href: arg.html
+        - text: "ASP"
+          href: asp.html
+        - text: "ASN"
+          href: asn.html
+        - text: "CYS"
+          href: cys.html
+        - text: "GLU"
+          href: glu.html
+        - text: "GLN"
+          href: gln.html
+        - text: "GLY"
+          href: gly.html
+        - text: "HIS"
+          href: his.html
+        - text: "ILE"
+          href: ile.html
+        - text: "LEU"
+          href: leu.html
+        - text: "LYS"
+          href: lys.html
+        - text: "MET"
+          href: met.html
+        - text: "PHE"
+          href: phe.html
+        - text: "PRO"
+          href: pro.html
+        - text: "SER"
+          href: ser.html
+        - text: "THR"
+          href: thr.html
+        - text: "TRP"
+          href: trp.html
+        - text: "TYR"
+          href: tyr.html
+        - text: "VAL"
+          href: val.html
+    - text: "Amino Acids Density"
+      menu:
+        - text: "AAL"
+          href: ala_d.html
+        - text: "ARG"
+          href: arg_d.html
+        - text: "ASP"
+          href: asp_d.html
+        - text: "ASN"
+          href: asn_d.html
+        - text: "CYS"
+          href: cys_d.html
+        - text: "GLU"
+          href: glu_d.html
+        - text: "GLN"
+          href: gln_d.html
+        - text: "GLY"
+          href: gly_d.html
+        - text: "HIS"
+          href: his_d.html
+        - text: "ILE"
+          href: ile_d.html
+        - text: "LEU"
+          href: leu_d.html
+        - text: "LYS"
+          href: lys_d.html
+        - text: "MET"
+          href: met_d.html
+        - text: "PHE"
+          href: phe_d.html
+        - text: "PRO"
+          href: pro_d.html
+        - text: "SER"
+          href: ser_d.html
+        - text: "THR"
+          href: thr_d.html
+        - text: "TRP"
+          href: trp_d.html
+        - text: "TYR"
+          href: tyr_d.html
+        - text: "VAL"
+          href: val_d.html
+    - text: "Nucleic Acid Histogram"
+      menu:
+        - text: "DA"
+          href: da.html
+        - text: "DC"
+          href: dc.html
+        - text: "DG"
+          href: dg.html
+        - text: "DT"
+          href: dt.html
+        - text: "A"
+          href: a.html
+        - text: "C"
+          href: c.html
+        - text: "G"
+          href: g.html
+        - text: "U"
+          href: u.html
+    - text: "Nucleic Acid Density"
+      menu:
+        - text: "DA"
+          href: da_d.html
+        - text: "DC"
+          href: dc_d.html
+        - text: "DG"
+          href: dg_d.html
+        - text: "DT"
+          href: dt_d.html
+        - text: "A"
+          href: a_d.html
+        - text: "C"
+          href: c_d.html
+        - text: "G"
+          href: g_d.html
+        - text: "U"
+          href: u_d.html
+ 
+  right:
+    - text: "BMRB"
+      href: http://www.bmrb.wisc.edu

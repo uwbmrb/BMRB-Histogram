@@ -1,0 +1,11 @@
+---
+title: "BMRB Statistics"
+output: html_document
+---
+
+
+
+# RBMRB
+
+All these plots are generated using RBMRB library. These plots are interactive plots. User can zoom in and out using mouse and switch on/off particular atom type in the plot. Tool box can be found on the top right on every plot.
+
