@@ -1,6 +1,8 @@
 ---
 title: "ASN"
-output: html_document
+output:
+  html_document:
+    template: pandoc_template.html
 ---
 
 
