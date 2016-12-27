@@ -1,0 +1,5 @@
+#!/bin/bash
+sed -i -e 's/<script src="site_libs\/jquery-1.11.3\/jquery.min.js"><\/script>//g' *.html
+sed -i -e 's/navbar-fixed-top//g' *.html
+rename 's/.html$/.shtml/' *.html
+sed -i -e 's/\.html"/.shtml"/g' *.shtml

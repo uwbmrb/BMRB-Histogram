@@ -47,7 +47,7 @@ navbar:
           href: val.html
     - text: "Amino Acids Density"
       menu:
-        - text: "AAL"
+        - text: "ALA"
           href: ala_d.html
         - text: "ARG"
           href: arg_d.html
@@ -124,6 +124,3 @@ navbar:
         - text: "U"
           href: u_d.html
  
-  right:
-    - text: "BMRB"
-      href: http://www.bmrb.wisc.edu
