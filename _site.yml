@@ -1,6 +1,6 @@
 name: "Statistics"
 navbar:
-  title: "About"
+  title: "Statistics"
   href: index.html
   left:
     - text: "Amino Acids Histogram"
@@ -123,4 +123,7 @@ navbar:
           href: g_d.html
         - text: "U"
           href: u_d.html
+  right:
+    - text: "RBMRB"
+      href: http://www.bmrb.wisc.edu/RBMRB_doc/
  
