@@ -9,7 +9,7 @@ output:
 
 ## RBMRB
 
-BMRB has developed [RBMRB](http://bmrb.wisc.edu/RBMRB_doc/index.html) package to access and visualize chemical shift data using the popular data analysis langaugae 'R'. All the chemical shift histograms and densiies are generated using RBMRB to provide instant access to users. Interested users may install our RBMRB library either from  [CRAN](https://CRAN.R-project.org/package=RBMRB) or [GitHub](https://github.com/uwbmrb/RBMRB) and reproduce the same plots locally.
+BMRB has developed [RBMRB](http://bmrb.wisc.edu/RBMRB_doc/) package to access and visualize chemical shift data using the popular data analysis langaugae 'R'. All the chemical shift histograms and densiies are generated using RBMRB to provide instant access to users. Interested users may install our RBMRB library either from  [CRAN](https://CRAN.R-project.org/package=RBMRB) or [GitHub](https://github.com/uwbmrb/RBMRB) and reproduce the same plots locally.
 
 ## Histogram
 Chemical shift histograms are generated using the binwidh of 0.1 ppm. 
