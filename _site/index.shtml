@@ -1,0 +1,259 @@
+<!--#include virtual="/includes/header0.shtml" -->
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Chemical shift Histograms and Densities</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+  <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+  <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+  <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<!--#include virtual="/includes/header1.shtml" -->
+
+<div class="navbar navbar-default  " role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.shtml">Statistics</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Amino Acids Histogram
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="ala.shtml">ALA</a>
+    </li>
+    <li>
+      <a href="arg.shtml">ARG</a>
+    </li>
+    <li>
+      <a href="asp.shtml">ASP</a>
+    </li>
+    <li>
+      <a href="asn.shtml">ASN</a>
+    </li>
+    <li>
+      <a href="cys.shtml">CYS</a>
+    </li>
+    <li>
+      <a href="glu.shtml">GLU</a>
+    </li>
+    <li>
+      <a href="gln.shtml">GLN</a>
+    </li>
+    <li>
+      <a href="gly.shtml">GLY</a>
+    </li>
+    <li>
+      <a href="his.shtml">HIS</a>
+    </li>
+    <li>
+      <a href="ile.shtml">ILE</a>
+    </li>
+    <li>
+      <a href="leu.shtml">LEU</a>
+    </li>
+    <li>
+      <a href="lys.shtml">LYS</a>
+    </li>
+    <li>
+      <a href="met.shtml">MET</a>
+    </li>
+    <li>
+      <a href="phe.shtml">PHE</a>
+    </li>
+    <li>
+      <a href="pro.shtml">PRO</a>
+    </li>
+    <li>
+      <a href="ser.shtml">SER</a>
+    </li>
+    <li>
+      <a href="thr.shtml">THR</a>
+    </li>
+    <li>
+      <a href="trp.shtml">TRP</a>
+    </li>
+    <li>
+      <a href="tyr.shtml">TYR</a>
+    </li>
+    <li>
+      <a href="val.shtml">VAL</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Amino Acids Density
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="ala_d.shtml">ALA</a>
+    </li>
+    <li>
+      <a href="arg_d.shtml">ARG</a>
+    </li>
+    <li>
+      <a href="asp_d.shtml">ASP</a>
+    </li>
+    <li>
+      <a href="asn_d.shtml">ASN</a>
+    </li>
+    <li>
+      <a href="cys_d.shtml">CYS</a>
+    </li>
+    <li>
+      <a href="glu_d.shtml">GLU</a>
+    </li>
+    <li>
+      <a href="gln_d.shtml">GLN</a>
+    </li>
+    <li>
+      <a href="gly_d.shtml">GLY</a>
+    </li>
+    <li>
+      <a href="his_d.shtml">HIS</a>
+    </li>
+    <li>
+      <a href="ile_d.shtml">ILE</a>
+    </li>
+    <li>
+      <a href="leu_d.shtml">LEU</a>
+    </li>
+    <li>
+      <a href="lys_d.shtml">LYS</a>
+    </li>
+    <li>
+      <a href="met_d.shtml">MET</a>
+    </li>
+    <li>
+      <a href="phe_d.shtml">PHE</a>
+    </li>
+    <li>
+      <a href="pro_d.shtml">PRO</a>
+    </li>
+    <li>
+      <a href="ser_d.shtml">SER</a>
+    </li>
+    <li>
+      <a href="thr_d.shtml">THR</a>
+    </li>
+    <li>
+      <a href="trp_d.shtml">TRP</a>
+    </li>
+    <li>
+      <a href="tyr_d.shtml">TYR</a>
+    </li>
+    <li>
+      <a href="val_d.shtml">VAL</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Nucleic Acid Histogram
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="da.shtml">DA</a>
+    </li>
+    <li>
+      <a href="dc.shtml">DC</a>
+    </li>
+    <li>
+      <a href="dg.shtml">DG</a>
+    </li>
+    <li>
+      <a href="dt.shtml">DT</a>
+    </li>
+    <li>
+      <a href="a.shtml">A</a>
+    </li>
+    <li>
+      <a href="c.shtml">C</a>
+    </li>
+    <li>
+      <a href="g.shtml">G</a>
+    </li>
+    <li>
+      <a href="u.shtml">U</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Nucleic Acid Density
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="da_d.shtml">DA</a>
+    </li>
+    <li>
+      <a href="dc_d.shtml">DC</a>
+    </li>
+    <li>
+      <a href="dg_d.shtml">DG</a>
+    </li>
+    <li>
+      <a href="dt_d.shtml">DT</a>
+    </li>
+    <li>
+      <a href="a_d.shtml">A</a>
+    </li>
+    <li>
+      <a href="c_d.shtml">C</a>
+    </li>
+    <li>
+      <a href="g_d.shtml">G</a>
+    </li>
+    <li>
+      <a href="u_d.shtml">U</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="http://www.bmrb.wisc.edu/RBMRB_doc/">RBMRB</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+<div id="header" class="contentwrap">
+<h1 class="title">Chemical shift Histograms and Densities</h1>
+</div>
+<div id="rbmrb" class="section level2">
+<h2>RBMRB</h2>
+<p>BMRB has developed <a href="http://bmrb.wisc.edu/RBMRB_doc/">RBMRB</a> package to access and visualize chemical shift data using the popular data analysis langaugae ‘R’. All the chemical shift histograms and densiies are generated using RBMRB to provide instant access to users. Interested users may install our RBMRB library either from <a href="https://CRAN.R-project.org/package=RBMRB">CRAN</a> or <a href="https://github.com/uwbmrb/RBMRB">GitHub</a> and reproduce the same plots locally.</p>
+</div>
+<div id="histogram" class="section level2">
+<h2>Histogram</h2>
+<p>Chemical shift histograms are generated using the binwidh of 0.1 ppm.</p>
+</div>
+<div id="densities" class="section level2">
+<h2>Densities</h2>
+<p>Chemical shift densities are independently normalized for every atom.</p>
+</div>
+<div id="visualizations" class="section level2">
+<h2>Visualizations</h2>
+<p>All these plots are interactive graphics. You may zoom in and out using mouse and particular distribution can be ennabled or disabled by clicking the atom list on the right</p>
+</div>
+<!--#include virtual="/includes/footer.shtml" -->
