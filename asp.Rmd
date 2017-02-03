@@ -1,0 +1,14 @@
+---
+title: "Aspartic acid (ASP)"
+output:
+  html_document:
+    template: pandoc_template.html
+---
+
+
+
+```{r, fig.width=8, fig.height=5, eval=TRUE, echo=FALSE}
+library(RBMRB)
+plt<-chemical_shift_hist('ASP',bw=0.1)
+plt
+```

@@ -1,0 +1,7 @@
+#!/bin/bash
+sed -i -e 's/<script src="site_libs\/jquery-1.11.3\/jquery.min.js"><\/script>//g' ./_site/*.html
+sed -i -e 's/navbar-fixed-top//g' ./_site/*.html
+sed -i -e 's/id="header"//g' ./_site/*.html
+rename 's/.html$/.shtml/' ./_site/*.html
+sed -i -e 's/\.html"/.shtml"/g' ./_site/*.shtml
+mv _site histogram
