@@ -1,5 +1,5 @@
 ---
-title: "ASN"
+title: "Asparagine (ASN)"
 output:
   html_document:
     template: pandoc_template.html

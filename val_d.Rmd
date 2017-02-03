@@ -1,5 +1,5 @@
 ---
-title: "VAL"
+title: "Valine (VAL)"
 output:
   html_document:
     template: pandoc_template.html

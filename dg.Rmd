@@ -1,5 +1,5 @@
 ---
-title: "DG"
+title: "Guanine (DG)"
 output:
   html_document:
     template: pandoc_template.html

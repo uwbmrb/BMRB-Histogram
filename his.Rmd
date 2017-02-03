@@ -1,5 +1,5 @@
 ---
-title: "HIS"
+title: "Histidine (HIS)"
 output:
   html_document:
     template: pandoc_template.html

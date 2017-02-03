@@ -1,5 +1,5 @@
 ---
-title: "ALA"
+title: "Alanine (ALA)"
 output:
   html_document:
     template: pandoc_template.html

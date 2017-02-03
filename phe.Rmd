@@ -1,5 +1,5 @@
 ---
-title: "PHE"
+title: "Phenylalanine (PHE)"
 output:
   html_document:
     template: pandoc_template.html

@@ -1,5 +1,5 @@
 ---
-title: "CYS"
+title: "Cysteine (CYS)"
 output:
   html_document:
     template: pandoc_template.html

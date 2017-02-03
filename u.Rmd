@@ -1,5 +1,5 @@
 ---
-title: "U"
+title: "Uracil (U)"
 output:
   html_document:
     template: pandoc_template.html

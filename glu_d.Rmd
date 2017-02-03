@@ -1,5 +1,5 @@
 ---
-title: "GLU"
+title: "Glutamic acid (GLU)"
 output:
   html_document:
     template: pandoc_template.html

@@ -1,5 +1,5 @@
 ---
-title: "TRP"
+title: "Tryptophan (TRP)"
 output:
   html_document:
     template: pandoc_template.html

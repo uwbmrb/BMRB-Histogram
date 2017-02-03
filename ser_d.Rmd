@@ -1,5 +1,5 @@
 ---
-title: "SER"
+title: "Serine (SER)"
 output:
   html_document:
     template: pandoc_template.html

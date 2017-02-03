@@ -1,5 +1,5 @@
 ---
-title: "TYR"
+title: "Tyrosine (TYR)"
 output:
   html_document:
     template: pandoc_template.html

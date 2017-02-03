@@ -1,5 +1,5 @@
 ---
-title: "LYS"
+title: "Lysine (LYS)"
 output:
   html_document:
     template: pandoc_template.html

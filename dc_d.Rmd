@@ -1,5 +1,5 @@
 ---
-title: "DC"
+title: "Cytosine (DC)"
 output:
   html_document:
     template: pandoc_template.html

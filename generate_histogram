@@ -1,4 +1,5 @@
 #!/bin/bash
+R CMD BATCH /home/kumaran/git/BMRB-Histogram/render_site.R
 sed -i -e 's/<script src="site_libs\/jquery-1.11.3\/jquery.min.js"><\/script>//g' ./_site/*.html
 sed -i -e 's/navbar-fixed-top//g' ./_site/*.html
 sed -i -e 's/id="header"//g' ./_site/*.html
