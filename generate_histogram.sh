@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /condor/bmrbgrid/histogram_generation
+
 # Generate the pages using R
 R CMD BATCH ./render_site.R
 
@@ -16,5 +18,11 @@ sed -i -e 's/\.html"/\.shtml"/g' ./_site/*.html
 # Rename the pages to .shtml
 rename .html .shtml ./_site/*html
 
+# Remove files that are not needed
+rm ./_site/README.shtml ./_site/pandoc_template.shtml
 
-mv _site histogram
+cp _site/*shtml /website/htdocs/histogram/
+
+# Don't do this if you need access to the referenced libraries
+rm -rf _site
+
